@@ -1,0 +1,58 @@
+#register-page main {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#register-form {
+  width: 60%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.register-input-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.register-input-container > input {
+  flex: 40%;
+  width: 100%;
+  padding: 10px;
+  margin: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#reg-birthdate {
+  font-family: 'Roboto', sans-serif;
+  color: #707070;
+}
+
+.reg-error-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reg-error {
+  color: #f34b4b;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 5px;
+  width: 55%;
+}
